@@ -1,0 +1,5 @@
+backend/node_modules
+client/node_modules
+
+smart contracts/cache*
+smart contracts/artifacts*

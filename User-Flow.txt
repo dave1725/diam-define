@@ -1,0 +1,19 @@
+User-Flow
+1) Choose an arena if its free from DB
+2) Deposit 2 USDC to the arena to cover the premium
+3) enter loan amount in USDC
+4) request flashloan for amount
+5) withdraw arbitrage amount to account
+6) set arena free in DB
+7) Flash loans completed!
+
+set-up
+1) deploy DEX.sol
+2) add liquidity of 5k USDC and 5k DAI
+3) deploy flash loan arbitrage contract with dex aaddres - Arena1
+4) approve 100k DAI and 100k USDC
+5) ready to request loan!
+
+Arenas:
+Arena1: 0x6F448d1385dA9462d3C0710124F99fb645A00E70 8k approved for DAI and USDC
+
